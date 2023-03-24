@@ -9,7 +9,7 @@ Resources:
       #ImageId: ami-0d5eff06f840b45e9 # ImageID valid only in us-east-1 region
       InstanceType: t2.micro
       "Tags" : [
-            {"Key" : "Name", "Value" : "diego-cloudformation-test-s3bucket"},
+            {"Key" : "Name", "Value" : "Roberto-cloudformation-test-s3bucket"},
         ]  
 
 
@@ -18,4 +18,4 @@ Resources:
     Type: "AWS::S3::Bucket"
     DeletionPolicy: "Retain"
     Properties:
-      BucketName: "diego-ec2-cftbucket202"
+      BucketName: "Roberto-ec2-cftbucket202"
